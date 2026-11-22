@@ -3,6 +3,11 @@
   "repo": "catalogue",
   "versions": [
     {
+      "commit": "e5fe944127cab62472a9657f0a5bb232e0303fc8",
+      "tag": "v2.1.0",
+      "parsed_at": "2026-11-22T00:51:06.005317+00:00"
+    },
+    {
       "commit": "4c815128eb73a4ecc54080d29810d080b2139ab8",
       "tag": "",
       "parsed_at": "2026-10-18T13:34:20.102186+00:00"
