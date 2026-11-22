@@ -66,6 +66,117 @@
       ],
       "ast": [
         "aggregate/ast/e5fe944127cab62472a9657f0a5bb232e0303fc8/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/e5fe944127cab62472a9657f0a5bb232e0303fc8.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "zipp",
+          "ecosystem": "PYPI",
+          "version": "0.5",
+          "githubOrg": "jaraco",
+          "githubRepo": "zipp",
+          "githubUrl": "https://github.com/jaraco/zipp",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "typing-extensions",
+          "ecosystem": "PYPI",
+          "version": "3.6.4",
+          "githubOrg": "python",
+          "githubRepo": "typing_extensions",
+          "githubCommit": "ae9f5edd9575f7f94e45c6e9b64898db73a8b62a",
+          "githubTag": "3.6.4",
+          "githubUrl": "https://github.com/python/typing_extensions",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "4.6.5",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "7807c263bcbb98ba91b50cb2b0dcdf55c49f80e6",
+          "githubTag": "4.6.5",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "mypy",
+          "ecosystem": "PYPI",
+          "version": "2.4.1",
+          "githubOrg": "python",
+          "githubRepo": "mypy",
+          "githubCommit": "ad02a35e623d105ab7340f75558716bc09f8242e",
+          "githubTag": "v2.4.1",
+          "githubUrl": "https://github.com/python/mypy",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pydantic",
+          "ecosystem": "PYPI",
+          "version": "2.14.4",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic",
+          "githubCommit": "1642a816171707dd8c58da6fff8061a59348402c",
+          "githubTag": "v2.14.4",
+          "githubUrl": "https://github.com/pydantic/pydantic",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "types-dataclasses",
+          "ecosystem": "PYPI",
+          "version": "0.6.6",
+          "githubOrg": "python",
+          "githubRepo": "typeshed",
+          "githubUrl": "https://github.com/python/typeshed",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "srsly",
+          "ecosystem": "PYPI",
+          "version": "3.0.1",
+          "githubOrg": "explosion",
+          "githubRepo": "srsly",
+          "githubCommit": "212a6d2a681c23e0a51cd1578e6e6c8e91396d50",
+          "githubTag": "v3.0.1",
+          "githubUrl": "https://github.com/explosion/srsly",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pydantic-core",
+          "ecosystem": "PYPI",
+          "version": "2.50.5",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic",
+          "githubUrl": "https://github.com/pydantic/pydantic",
+          "source": "lsp",
+          "raw_name": "pydantic_core",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/pydantic_core/_pydantic_core/__init__.pyi"
+        },
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "2.5.5",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubCommit": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+          "githubTag": "v2.5.5",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/numpy/random/mtrand.pyi"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        }
       ]
     }
   ],
